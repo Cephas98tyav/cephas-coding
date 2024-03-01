@@ -1,0 +1,102 @@
+body{
+    background-color: royalblue;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: crimson;
+    padding: 15px;
+    box-shadow: 0 03px;
+}
+nav li{
+    display: inline;
+    padding-left: 45px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+p{
+    margin: 7px;
+    color: white;
+}
+.images-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 7px;
+    margin: 18px;
+}
+.welcome-adress{
+ font-size: 30px;   
+}
+.welcome-adress{
+    background-color: darkgray;
+}
+.backgraund-color{
+    height: 70px;
+}
+.about-us nav{
+    background-color: crimson;
+    padding: 15px;
+    box-shadow: 0 03px;
+}
+.about-us nav li{
+    display: inline;
+    padding-left: 45px;
+}
+.service nav{
+    background-color: crimson;
+    padding: 15px;
+    box-shadow: 0 03px;
+}
+.service nav li{
+    display: inline;
+    padding-left: 45px;
+}
+.blog nav{
+    background-color: crimson;
+    padding: 15px;
+    box-shadow: 0 03px;
+} 
+.blog nav li{
+    display: inline;
+    padding-left: 45px;
+}
+.registration nav{
+    background-color: crimson;
+    padding: 15px;
+    box-shadow: 0 03px;
+}
+.registration nav li{
+    display: inline;
+    padding-left: 45px;
+}
+.slider{
+    width: 300px;
+    height: 500px;
+    position: relative;
+}
+.slider img{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.slider img:nth-child(1){
+    z-index: 0;
+}
+.footer{
+    background-color: chocolate;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer-down{
+background-color: violet;
+margin: 100px;
+text-align: center;
+}
+.h2{
+    background-color: aliceblue;
+    text-align: center;
+}
